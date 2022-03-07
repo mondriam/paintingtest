@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="6.1.13" apprev="18080">
-  <panorama id="node1">
-    <input levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingroll="0" height="2048">
-      <level preload="0" width="2048" height="2048" predecode="0"/>
-      <level preload="0" width="1024" height="1024" predecode="0"/>
-      <level preload="0" width="512" height="512" predecode="0"/>
-      <level preload="1" width="256" height="256" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovstereographic="270" fovfisheye="360" fov="120" tilt="90" scaletofit="1"/>
-    </view>
-    <userdata tags="Desktop" comment="" source="" title="" nodeid="node1" longitude="" description="" info="" author="" customnodeid="" latitude="" heading="0" datetime="" copyright=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" textalpha="1" width="180" wordwrap="1" backgroundalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" height="20" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-13.62" title="Modern Kitchen" id="Point01" url="" customimageheight="75" use3D="0" fov="10" description="" customimage="media/infobutton.png" target="_blank" customimagewidth="75" distance3D="428.627" skinid="ht_url" tilt="-9.78"/>
-      <hotspot pan="-289.88" title="Lobby" id="Point02" url="" customimageheight="75" use3D="0" fov="10" description="" customimage="media/infobutton.png" target="_blank" customimagewidth="75" distance3D="428.627" skinid="ht_url" tilt="-38.62"/>
-      <hotspot pan="-338.92" title="Dinning Table for 6" id="Point03" url="" customimageheight="75" use3D="0" fov="10" description="" customimage="media/infobutton.png" target="_blank" customimagewidth="75" distance3D="428.627" skinid="ht_url" tilt="-14"/>
-      <hotspot pan="-355.17" title="30 sq feet Internal Garden " id="Point04" url="" customimageheight="75" use3D="0" fov="10" description="" customimage="media/infobutton.png" target="_blank" customimagewidth="75" distance3D="428.627" skinid="ht_url" tilt="-2.01"/>
-      <hotspot pan="-75.87" title="2nd Floor -  Guest Area" id="Point05" url="" customimageheight="75" use3D="0" fov="10" description="" customimage="media/infobutton.png" target="_blank" customimagewidth="75" distance3D="428.627" skinid="ht_url" tilt="14.55"/>
-      <hotspot pan="-154.65" title="" id="Point06" url="{node2}" customimageheight="150" use3D="0" fov="10" description="" customimage="media/Hotspot_7E3AB10E_7A6C_4BF0_41CF_51D066A1CE87 copy.png" target="" customimagewidth="150" distance3D="857.254" skinid="ht_node" tilt="-15.05"/>
-    </hotspots>
-    <media/>
-    <transition zoomspeed="2" softedge="0" zoomfov="20" zoomin="0" zoomout="0" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomafterinfov="90" enabled="1" type="crossdissolve" zoomafteroutfov="20"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" contextprojections="0" sensitivity="8" invertcontrol="1" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" hideabout="0"/>
-  </panorama>
+<tour apprev="18080" appversion="6.1.13" start="node2">
   <panorama id="node2">
-    <input levelbiashidpi="1.000" levelingpitch="0" width="2048" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingroll="0" height="2048">
-      <level preload="0" width="2048" height="2048" predecode="0"/>
-      <level preload="0" width="1024" height="1024" predecode="0"/>
-      <level preload="0" width="512" height="512" predecode="0"/>
-      <level preload="1" width="256" height="256" predecode="1"/>
+    <input width="2048" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="2048" levelingroll="0" levelbias="0.400">
+      <level preload="0" predecode="0" width="2048" height="2048"/>
+      <level preload="0" predecode="0" width="1024" height="1024"/>
+      <level preload="0" predecode="0" width="512" height="512"/>
+      <level preload="1" predecode="1" width="256" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fovstereographic="270" fovfisheye="360" fov="120" tilt="90" scaletofit="1"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
     </view>
-    <userdata tags="Pano2vr Test" comment="" source="" title="" nodeid="node2" longitude="" description="" info="" author="" customnodeid="" latitude="" heading="0" datetime="" copyright=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" textalpha="1" width="180" wordwrap="1" backgroundalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" borderradius="1" height="20" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot pan="-15.04" title="" id="Point01" url="{node1}" customimageheight="80" use3D="0" fov="10" description="" customimage="media/Home-hotpost.png" target="" customimagewidth="80" distance3D="457.202" skinid="ht_node" tilt="0.59"/>
+    <userdata nodeid="node2" author="" source="" comment="" heading="0" customnodeid="" datetime="" title="" copyright="" longitude="" description="" latitude="" tags="Pano2vr Test" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" textcolor="0x000000" height="20" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" distance3D="457.202" tilt="0.59" target="" customimagewidth="80" customimageheight="80" pan="-15.04" title="Typical House" url="{node1}" customimage="media/Home-hotpost.png" use3D="0" description="" skinid="ht_node" fov="10"/>
     </hotspots>
     <media/>
-    <transition zoomspeed="2" softedge="0" zoomfov="20" zoomin="0" zoomout="0" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomafterinfov="90" enabled="1" type="crossdissolve" zoomafteroutfov="20"/>
+    <transition zoomspeed="2" blendtime="1" zoomin="0" zoomoutpause="1" zoomafteroutfov="20" zoomout="0" softedge="0" enabled="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" blendcolor="0x000000"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" contextfullscreen="1" simulatemass="1" lockedmouse="0" invertwheel="0" contextprojections="0" sensitivity="8" invertcontrol="1" lockedwheel="0" speedwheel="1" dblclickfullscreen="0" contextvr="1" lockedkeyboard="0" hideabout="0"/>
+    <control lockedmouse="0" contextvr="1" speedwheel="1" lockedwheel="0" sensitivity="8" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" contextprojections="0" hideabout="0" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1"/>
+  </panorama>
+  <panorama id="node1">
+    <input width="2048" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" height="2048" levelingroll="0" levelbias="0.400">
+      <level preload="0" predecode="0" width="2048" height="2048"/>
+      <level preload="0" predecode="0" width="1024" height="1024"/>
+      <level preload="0" predecode="0" width="512" height="512"/>
+      <level preload="1" predecode="1" width="256" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata nodeid="node1" author="" source="" comment="" heading="0" customnodeid="" datetime="" title="" copyright="" longitude="" description="" latitude="" tags="Desktop" info=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label border="1" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" width="180" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" textcolor="0x000000" height="20" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" handcursor="1" borderalpha="1"/>
+      <hotspot id="Point01" distance3D="428.627" tilt="-9.78" target="_blank" customimagewidth="75" customimageheight="75" pan="-13.62" title="Modern Kitchen" url="" customimage="media/infobutton.png" use3D="0" description="" skinid="ht_url" fov="10"/>
+      <hotspot id="Point02" distance3D="428.627" tilt="-38.62" target="_blank" customimagewidth="75" customimageheight="75" pan="-289.88" title="Lobby" url="" customimage="media/infobutton.png" use3D="0" description="" skinid="ht_url" fov="10"/>
+      <hotspot id="Point03" distance3D="428.627" tilt="-14" target="_blank" customimagewidth="75" customimageheight="75" pan="-338.92" title="Dinning Table for 6" url="" customimage="media/infobutton.png" use3D="0" description="" skinid="ht_url" fov="10"/>
+      <hotspot id="Point04" distance3D="428.627" tilt="-2.01" target="_blank" customimagewidth="75" customimageheight="75" pan="-355.17" title="30 sq feet Internal Garden " url="" customimage="media/infobutton.png" use3D="0" description="" skinid="ht_url" fov="10"/>
+      <hotspot id="Point05" distance3D="428.627" tilt="14.55" target="_blank" customimagewidth="75" customimageheight="75" pan="-75.87" title="2nd Floor -  Guest Area" url="" customimage="media/infobutton.png" use3D="0" description="" skinid="ht_url" fov="10"/>
+      <hotspot id="Point06" distance3D="857.254" tilt="-15.05" target="" customimagewidth="150" customimageheight="150" pan="-154.65" title="" url="{node2}" customimage="media/Hotspot_7E3AB10E_7A6C_4BF0_41CF_51D066A1CE87 copy.png" use3D="0" description="" skinid="ht_node" fov="10"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" blendtime="1" zoomin="0" zoomoutpause="1" zoomafteroutfov="20" zoomout="0" softedge="0" enabled="1" type="crossdissolve" zoomafterinfov="90" zoomfov="20" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedmouse="0" contextvr="1" speedwheel="1" lockedwheel="0" sensitivity="8" rubberband="0" dblclickfullscreen="0" simulatemass="1" invertcontrol="1" contextprojections="0" hideabout="0" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata tags="" comment="" source="" title="" nodeid="master" longitude="" description="" info="" author="" customnodeid="" latitude="" heading="0" datetime="" copyright=""/>
+    <userdata nodeid="master" author="" source="" comment="" heading="0" customnodeid="" datetime="" title="" copyright="" longitude="" description="" latitude="" tags="" info=""/>
   </masternode>
 </tour>
