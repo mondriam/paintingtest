@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" apprev="18080" appversion="6.1.13">
+  <input levelbias="0.400" levelingpitch="0" width="2048" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="2048" overlap="1" levelbiashidpi="1.000">
+    <level width="2048" preload="0" height="2048" predecode="0"/>
+    <level width="1024" preload="0" height="1024" predecode="0"/>
+    <level width="512" preload="0" height="512" predecode="0"/>
+    <level width="256" preload="1" height="256" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start pan="0" fov="70" projection="4" tilt="0"/>
+    <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+    <min pan="0" tilt="-90" fovpixel="2"/>
+    <max scaletofit="1" pan="360" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+  </view>
+  <userdata source="" comment="" datetime="" longitude="" info="" heading="0" customnodeid="" latitude="" tags="Desktop" title="" nodeid="node1" description="" copyright="" author=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label enabled="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundcolor="0xffffff" wordwrap="1" border="1" borderalpha="1" height="20" textcolor="0x000000" background="1"/>
+    <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+    <hotspot pan="-13.62" id="Point01" url="" title="Modern Kitchen" tilt="-9.78" description="" target="_blank" skinid="ht_url"/>
+    <hotspot pan="-289.88" id="Point02" url="" title="Lobby" tilt="-38.62" description="" target="_blank" skinid="ht_url"/>
+    <hotspot pan="-341.64" id="Point03" url="" title="Dinning Table for 6" tilt="-12.66" description="" target="_blank" skinid="ht_url"/>
+    <hotspot pan="-353.06" id="Point04" url="" title="30 sq feet Internal Garden " tilt="-5.98" description="" target="_blank" skinid="ht_url"/>
+    <hotspot pan="-75.87" id="Point05" url="" title="2nd Floor -  Guest Area" tilt="14.55" description="" target="_blank" skinid="ht_url"/>
+  </hotspots>
+  <media/>
+  <transition enabled="1" softedge="0" blendtime="1" blendcolor="0x000000" type="crossdissolve" zoomafterinfov="90" zoomin="0" zoomout="0" zoomfov="20" zoomafteroutfov="20" zoomoutpause="1" zoomspeed="2"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control contextprojections="0" sensitivity="8" rubberband="0" lockedmouse="0" hideabout="0" speedwheel="1" dblclickfullscreen="0" contextfullscreen="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" simulatemass="1" contextvr="1"/>
+</panorama>
